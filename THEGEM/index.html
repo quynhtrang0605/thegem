@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>The Gem</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/fonts/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body>
+    <div class="wrapper clearfix">
+        <header class="header">
+            <div class="container">
+                <div class="header__heading flex-row justify-content">
+                    <nav class="navbar navbar-expand-md navbar-dark nav__list">
+                        <div class="container">
+                            <a class="navbar-brand" href="#">
+                                <img src="assets/img/Logo.jpg" class="img__logo" alt="The Gum">
+                                <span class="logo__text">THEGEM</span>
+                            </a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+						  <span class="navbar-toggler-icon"></span>
+						</button>
+                            <div class="collapse navbar-collapse nav" id="collapsibleNavbar">
+                                <ul class="navbar-nav me-auto">
+                                    <li class="nav-item">
+                                        <a class="nav-link color-83909d font-14" href="#">HOME</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link color-83909d font-14 active" href="#">PAGES</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link color-83909d font-14" href="#">BLOG</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link color-83909d font-14" href="#">PORTFOLIOS</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link color-83909d font-14" href="#">SHOP</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link color-83909d font-14" href="#">FEATURES</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link color-83909d font-14" href="#">ELEMENTS</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link color-83909d font-14" href="#"><img class="img__flag" src="assets/img/flag.JPG" alt=""></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link color-83909d font-14" href="#"><i class="ti-search"></i></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link color-83909d font-14" href="#">
+                                            <i class="ti-shopping-cart"></i>
+                                            <span class="header-cart__notice">2</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+                <div class="header__body ">
+                    <div class="header-slider ">
+                        <div class="header-slider__item ">
+                            <i class="ti-menu-alt text-center color-00bcd4"></i>
+                            <h2 class="header-slider__title text-center text-white">PRICING
+                                <span class="header-slider__title--bold ">TABLES</span>
+                            </h2>
+                            <p class="header-slider__desc text-center text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla temporibus ad dolor animi magni expedita possimus exercitationem quaerat est, amet, dicta. Quis hendrerit dolor magna eget.</p>
+                        </div>
+                    </div>
+                    <div class="header-buttons text-center">
+                        <a href=" # " class="btn btn--border btn--rounded text-white ">PURCHASE NOW</a>
+                        <a href="# " class="btn btn--border btn--rounded text-white ">MORE DETAILS</a>
+                    </div>
+                    <div class="header-dot text-center flex-row ">
+                        <span class="dot active " onclick="currentSlide(1) ">
+                            <span class="dot-item "></span>
+                        </span>
+                        <span class="dot " onclick="currentSlide(2) ">
+                            <span class="dot-item "></span>
+                        </span>
+                        <span class="dot " onclick="currentSlide(3) ">
+                            <span class="dot-item "></span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <a class="prev " onclick="plusSlides(-1) ">
+                <span class="material-icons text-white ">
+                    arrow_back
+                </span>
+            </a>
+            <a class="next " onclick="plusSlides(1) ">
+                <span class="material-icons text-white ">
+                    arrow_forward
+                </span>
+            </a>
+        </header>
+
+        <section class="banner ">
+            <div class="container ">
+                <div class="banner__heading text-center">LOREM
+                    <span class="banner__heading--bold ">IPSUM</span>
+                </div>
+                <div class="banner__desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa ea ab praesentium unde dignissimos molestiae, recusandae reprehenderit, natus dolor delectus maiores modi nemo vel ipsam nulla officiis quod rerum nihil! Lorem ipsum, dolor
+                    sit amet consectetur adipisicing elit. Atque fugiat, corrupti blanditiis cum dolores tempora placeat laudantium ipsum repellat, explicabo, quisquam soluta rem inventore dolorum quo. Quia voluptatibus earum deserunt? Lorem ipsum dolor
+                    sit amet consectetur adipisicing elit. Pariatur ex ipsa earum, obcaecati exercitationem perspiciatis voluptatem reiciendis commodi voluptatum ut possimus ea? Harum quae corrupti asperiores adipisci sed earum obcaecati! Quia voluptatibus
+                    earum deserunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur ex ipsa earum, obcaecati exercitationem perspiciatis voluptatem reiciendis commodi voluptatum ut possimus ea? Harum quae corrupti asperiores adipisci
+                    harum quae corrupti asperiores adipisci sed earum obcaecati!
+                </div>
+            </div>
+        </section>
+
+        <section class="price ">
+            <div class="container price-container justify-content ">
+                <div class="price-item price-item--1 text-center">
+                    <div class="price__heading">
+                        <h3 class="price__heading-title ">BEGINNER</h3>
+                        <div class="price__heading-price--desc font-14 ">The best price/quantity plan *</div>
+                    </div>
+                    <div class="price__heading1 text-white ">
+                        <p class="price__heading-price ">$10</p>
+                        <span>Per month</span>
+                    </div>
+                    <div class="price__body ">
+                        <ul class="price__menu ">
+                            <li class="price__menu-item ">
+                                <h4 class="price__menu-item__head ">Subtitle goes here</h4>
+                                <p class="price__menu-item__desc font-14 ">
+                                    Subtitle second line goes here
+                                </p>
+                            </li>
+                            <li class="price__menu-item ">
+                                <p class="font-14 ">Drop out ramen hustle</p>
+                            </li>
+                            <li class="price__menu-item ">
+                                <p class="font-14 ">Coworking viral landing</p>
+                            </li>
+                            <li class="price__menu-item ">
+                                <p class="price__menu-item--remove font-14 ">Crush revenue traction</p>
+                            </li>
+                            <li class="price__menu-item ">
+                                <p class="price__menu-item--remove font-14 ">User base minimum viable</p>
+                            </li>
+                            <li class="price__menu-item ">
+                                <p class="price__menu-item--remove font-14 ">Lorem ipsum dolor</p>
+                            </li>
+                            <li class="price__menu-item ">
+                                <a href="# " class="btn btn--border price__menu-item--btn text-white "><i class="fa fa-caret-right "></i> &nbsp;ORDER</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="price-item price-item--2 label-item2 text-white text-center">
+                    <div class="price__heading">
+                        <h3 class="price__heading-title ">ADVANCED</h3>
+                        <div class="price__heading-price--desc font-14 " style="display: block; ">The best price/quantity plan *</div>
+                    </div>
+                    <div class="price__heading2 text-white ">
+                        <p class="price__heading-price ">$45</p>
+                        <span>Per month</span>
+                    </div>
+                    <div class="price__body ">
+                        <ul class="price__menu ">
+                            <li class="price__menu-item ">
+                                <h4 class="price__menu-item__head ">Subtitle goes here</h4>
+                                <p class="price__menu-item__desc font-14 ">
+                                    Subtitle second line goes here
+                                </p>
+                            </li>
+                            <li class="price__menu-item ">
+                                <p class="font-14 ">Drop out ramen hustle</p>
+                            </li>
+                            <li class="price__menu-item ">
+                                <p class="font-14 ">Coworking viral landing</p>
+                            </li>
+                            <li class="price__menu-item ">
+                                <p class="price__menu-item--remove font-14 ">Crush revenue traction</p>
+                            </li>
+                            <li class="price__menu-item ">
+                                <p class="price__menu-item--remove font-14 ">User base minimum viable</p>
+                            </li>
+                            <li class="price__menu-item ">
+                                <p class="price__menu-item--remove font-14 ">Lorem ipsum dolor</p>
+                            </li>
+                            <li class="price__menu-item ">
+                                <a href="# " class="btn btn--border price__menu-item--btn text-white "><i class="fa fa-caret-right "></i> &nbsp;ORDER</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="price-item price-item--3 text-center">
+                    <div class="price__heading">
+                        <h3 class="price__heading-title ">MASTER</h3>
+                        <div class="price__heading-price--desc font-14 ">The best price/quantity plan *</div>
+                    </div>
+                    <div class="price__heading3 text-white ">
+                        <p class="price__heading-price ">$249</p>
+                        <span>Per month</span>
+                    </div>
+                    <div class="price__body ">
+                        <ul class="price__menu ">
+                            <li class="price__menu-item ">
+                                <h4 class="price__menu-item__head ">Subtitle goes here</h4>
+                                <p class="price__menu-item__desc font-14 ">
+                                    Subtitle second line goes here
+                                </p>
+                            </li>
+                            <li class="price__menu-item ">
+                                <p class="font-14 ">Drop out ramen hustle</p>
+                            </li>
+                            <li class="price__menu-item ">
+                                <p class="font-14 ">Coworking viral landing</p>
+                            </li>
+                            <li class="price__menu-item ">
+                                <p class="price__menu-item--remove font-14 ">Crush revenue traction</p>
+                            </li>
+                            <li class="price__menu-item ">
+                                <p class="price__menu-item--remove font-14 ">User base minimum viable</p>
+                            </li>
+                            <li class="price__menu-item ">
+                                <p class="price__menu-item--remove font-14 ">Lorem ipsum dolor</p>
+                            </li>
+                            <li class="price__menu-item ">
+                                <a href="# " class="btn btn--border price__menu-item--btn text-white "><i class="fa fa-caret-right "></i> &nbsp;ORDER</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="price-item price-item--4 text-center">
+                    <div class="price__heading">
+                        <h3 class="price__heading-title ">INSANE</h3>
+                        <div class="price__heading-price--desc font-14 ">The best price/quantity plan *</div>
+                    </div>
+                    <div class="price__heading4 text-white ">
+                        <p class="price__heading-price ">$1339</p>
+                        <span>Per month</span>
+                    </div>
+                    <div class="price__body ">
+                        <ul class="price__menu ">
+                            <li class="price__menu-item ">
+                                <h4 class="price__menu-item__head ">Subtitle goes here</h4>
+                                <p class="price__menu-item__desc font-14 ">
+                                    Subtitle second line goes here
+                                </p>
+                            </li>
+                            <li class="price__menu-item ">
+                                <p class="font-14 ">Drop out ramen hustle</p>
+                            </li>
+                            <li class="price__menu-item ">
+                                <p class="font-14 ">Coworking viral landing</p>
+                            </li>
+                            <li class="price__menu-item ">
+                                <p class="price__menu-item--remove font-14 ">Crush revenue traction</p>
+                            </li>
+                            <li class="price__menu-item ">
+                                <p class="price__menu-item--remove font-14 ">User base minimum viable</p>
+                            </li>
+                            <li class="price__menu-item ">
+                                <p class="price__menu-item--remove font-14 ">Lorem ipsum dolor</p>
+                            </li>
+                            <li class="price__menu-item ">
+                                <a href="# " class="btn btn--border price__menu-item--btn text-white "><i class="fa fa-caret-right "></i> &nbsp;ORDER</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="ad ">
+            <div class="container ad-container ">
+                <img src="assets/img/sword.jpg " alt=" " class="ad__img ">
+                <h2 class="ad__heading text-white ">AD BLOCK</h2>
+                <p class="ad__desc color-83909d ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati ratione, consequuntur voluptatum dolore nobis vitae praesentium id laborum quidem, sunt nulla necessitatibus? Fugiat, dignissimos dolorum cum adipisci corporis magni et?</p>
+                <a href=" " class="btn btn--border btn--rounded text-white ">PURCHASE NOW</a>
+            </div>
+        </section>
+
+        <section class="contact ">
+            <div class="container contact-container ">
+                <ul class="contact__menu justify-content ">
+                    <li class="contact__item ">
+                        <div class="contact__item-logo ">
+                            <img src="assets/img/contact.jpg " class="img__contact " alt=" ">
+                            <h3 class="text-white ">THE
+                                <span>GEM</span>
+                            </h3>
+                        </div>
+                        <div class="contact__item-desc color-83909d ">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui, totam velit tempore maxime, odio beatae officiis itaque laborum a. Reiciendis, quidem.
+                        </div>
+                    </li>
+                    <li class="contact__item ">
+                        <div class="contact__item-heading text-white ">
+                            <h4>RECENT POSTS</h4>
+                        </div>
+                        <div class="contact__item-desc color-83909d ">
+                            <ul class="contact__item-posts ">
+                                <li class="contact__item-post ">
+                                    <span class="contact__circle1 "></span>
+                                    <div class="contact__item-post__right ">
+                                        <p>Proin gravida gravida nibh vel velit auctor aliquet aenean</p>
+                                        <div class="contact__item-post__right--count justify-content flex-row ">
+                                            <div class="contact__item-post__right--time ">
+                                                27 Dec 2015
+                                            </div>
+                                            <div class="contact__item-post__right--mess ">
+                                                <i class="fas fa-comments "></i> 0
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="contact__item-post ">
+                                    <span class="contact__circle2 "></span>
+                                    <div class="contact__item-post__right ">
+                                        <p>Proin gravida nibh gravida nibh vel velit auctor aliquet</p>
+                                        <div class="contact__item-post__right--count justify-content flex-row ">
+                                            <div class="contact__item-post__right--time ">
+                                                27 Dec 2015
+                                            </div>
+                                            <div class="contact__item-post__right--mess has-mess ">
+                                                <i class="fas fa-comments "></i> 14
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="contact__item-post ">
+                                    <span class="contact__circle3 ">
+                                        </span>
+                                    <div class="contact__item-post__right ">
+                                        <p>Proin gravida gravida nibh vel velit auctor aliquet aenean</p>
+                                        <div class="contact__item-post__right--count justify-content flex-row ">
+                                            <div class="contact__item-post__right--time ">
+                                                27 Dec 2015
+                                            </div>
+                                            <div class="contact__item-post__right--mess ">
+                                                <i class="fas fa-comments "></i> 0
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="contact__item ">
+                        <div class="contact__item-heading text-white ">
+                            <h4>EMAIL US</h4>
+                        </div>
+                        <div class="contact__item-desc color-83909d ">
+                            <div class="contact__item-email ">
+                                <form action=" ">
+                                    <div class="contact__item-email__name justify-content flex-row ">
+                                        <input type="text " placeholder="Your name ">
+                                        <i class="fas fa-street-view "></i>
+                                    </div>
+                                    <div class="contact__item-email__name justify-content flex-row ">
+                                        <input type="text " placeholder="your@email.address ">
+                                        <i class="fas fa-envelope "></i>
+                                    </div>
+                                    <textarea name=" " id=" " cols="10 " rows="3 " placeholder="Your message "></textarea>
+                                    <button type="button " class="text-white font-14 ">SEND MESSAGE</button>
+                                </form>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="contact__item ">
+                        <div class="contact__item-heading text-white ">
+                            <h4>FLICKR FEED</h4>
+                        </div>
+                        <div class="contact__item-desc color-83909d ">
+                            <div class="contact__item-feed justify-content ">
+                                <div class="contact__item-feed--square "></div>
+                                <div class="contact__item-feed--square "></div>
+                                <div class="contact__item-feed--square "></div>
+                                <div class="contact__item-feed--square "></div>
+                                <div class="contact__item-feed--square "></div>
+                                <div class="contact__item-feed--square "></div>
+                                <div class="contact__item-feed--square "></div>
+                                <div class="contact__item-feed--square "></div>
+                                <div class="contact__item-feed--square "></div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="contact__item ac ">
+                        <div class="contact__item-heading text-white ">
+                            <h4>CONTACT</h4>
+                        </div>
+                        <div class="contact__item-desc color-83909d ">
+                            <div class="contact__item-connect ">
+                                <div class="contact__item-connect__add ">
+                                    <p>
+                                        <i class="fas fa-map-marker-alt "></i> Address:
+                                    </p>
+                                    <p>908 New Hampshire Northwest </p>
+                                    <p>#100, Washington, DC</p>
+                                    <p>20037, United States</p>
+                                </div>
+                                <ul class="contact__item-connect__list ">
+                                    <li class="contact__item-connect__item ">
+                                        <i class="fas fa-headphones "></i> Phone: +1 916-875-2235
+                                    </li>
+                                    <li class="contact__item-connect__item ">
+                                        <i class="fas fa-fax "></i> Fax: +1 916-875-2235
+                                    </li>
+                                    <li class="contact__item-connect__item ">
+                                        <i class="far fa-envelope "></i> Email:
+                                        <a href="# " class="color-00bcd4 ">info@domain.ltd</a>
+                                    </li>
+                                    <li class="contact__item-connect__item ">
+                                        <i class="fas fa-globe "></i> Website: <a href="# " class="color-00bcd4 ">www.codex.com</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="contact__item ">
+                        <div class="contact__item-heading text-white ">
+                            <h4>USEFUL LINKS</h4>
+                        </div>
+                        <div class="contact__item-desc color-83909d ">
+                            <div class="contact__item-link ">
+                                <ul class="contact__item-link__list color-00bcd4 ">
+                                    <li class="contact__item-link__item ">
+                                        <a href="# " class="color-83909d ">General Information For Users</a>
+                                    </li>
+                                    <li class="contact__item-link__item ">
+                                        <a href="# " class="color-83909d ">Interactive Fairy Tales</a>
+                                    </li>
+                                    <li class="contact__item-link__item ">
+                                        <a href="# " class="color-83909d ">Official Storybook Website</a>
+                                    </li>
+                                    <li class="contact__item-link__item ">
+                                        <a href="# " class="color-83909d ">Everyday Mathematics Links</a>
+                                    </li>
+                                    <li class="contact__item-link__item ">
+                                        <a href="# " class="color-83909d ">Basic Knowledge, Experience</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="contact__item ">
+                        <div class="contact__item-heading text-white ">
+                            <h4>PROJECT / CLIENT ?</h4>
+                        </div>
+                        <div class="contact__item-desc color-83909d ">
+                            <div class="contact__item-client justify-content ">
+                                <div class="contact__item-client--square "></div>
+                                <div class="contact__item-client--square "></div>
+                                <div class="contact__item-client--square "></div>
+                                <div class="contact__item-client--square "></div>
+                                <div class="contact__item-client--square "></div>
+                                <div class="contact__item-client--square "></div>
+                            </div>
+                            <div class="contact__item__dot flex-row ">
+                                <span class="contact__item__dot-item active "></span>
+                                <span class="contact__item__dot-item "></span>
+                                <span class="contact__item__dot-item "></span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="contact__item ">
+                        <div class="contact__item-heading text-white ">
+                            <h4>NEWS LETTER</h4>
+                        </div>
+                        <div class="contact__item-desc color-83909d ">
+                            <div class="contact__item-news ">
+                                <p>Subscribe to our MailChimp news letter with all events coming straight in your mailbox:</p>
+                                <div class="contact__item-news__form justify-content flex-row ">
+                                    <input type="text " placeholder="Your email address ">
+                                    <span>
+                                        <i class="fas fa-chevron-right "></i>
+                                    </span>
+                                </div>
+                                <a href=" " class="color-83909d ">* Personal information encrypte</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <footer class="footer ">
+            <div class="container footer-container color-83909d justify-content flex-row ">
+                <div class="footer__heading ">
+                    <p>© Copyright 2015
+                        <span class="color-00bcd4 ">CodexThemes</span>
+                    </p>
+                </div>
+                <ul class="footer__menu flex-row ">
+                    <li class="footer__item ">
+                        <a href=" " class="footer__item-link color-83909d ">Support</a>
+                    </li>
+                    <li class="footer__item ">
+                        <a href=" " class="footer__item-link color-83909d ">Contact Us</a>
+                    </li>
+                    <li class="footer__item ">
+                        <a href=" " class="footer__item-link color-83909d ">Disclaimer</a>
+                    </li>
+                    <li class="footer__item ">
+                        <a href=" " class="footer__item-link color-83909d ">Privacy Policy</a>
+                    </li>
+                </ul>
+                <div class="footer__icon ">
+                    <i class="fa fa-twitter "></i>
+                    <i class="ti-facebook "></i>
+                    <i class="ti-linkedin "></i>
+                    <i class="ti-instagram "></i>
+                    <i class="fa fa-youtube-play "></i>
+                    <i class="ti-google "></i>
+                    <i class="ti-pinterest "></i>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
