@@ -1,0 +1,218 @@
+@media (min-width: 1024px) and (max-width: 1200px) {
+    .nav-item {
+        margin-left: 17px;
+    }
+    .header-cart__notice {
+        top: 22px;
+        left: 965px;
+    }
+    .contact__item-feed--square,
+    .contact__item-client--square {
+        width: 75px;
+        height: 75px;
+    }
+    .contact__item-link__item a {
+        margin-left: -8px;
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .container {
+        padding: 0 25px 0;
+    }
+    .header__menu-item {
+        margin-left: 18px;
+    }
+    .header__heading .img__logo {
+        margin: -17px 0 9px 20px;
+    }
+    .header__heading .logo__text {
+        margin: 0 0 0 -67px;
+    }
+    .header__heading .img__logo {
+        margin: -17px 0 23px -17px;
+    }
+    .header-slider__title {
+        font-size: 50px;
+        letter-spacing: 5px;
+        margin: 70px 0 40px;
+    }
+    .nav-item {
+        margin: -30px 0 0 14px;
+    }
+    .nav-link {
+        font-size: 12px;
+    }
+    .img__flag {
+        margin: -3px 0 0 -18px;
+    }
+    .header-cart__notice {
+        top: 12px;
+        font-size: 10px;
+        left: 703px;
+    }
+    .header__body {
+        margin: 100px 0 50px;
+    }
+    .header-slider__desc {
+        font-size: 14px;
+    }
+    .prev span,
+    .next span {
+        font-size: 17px;
+        padding: 10px;
+        margin-top: -30px;
+    }
+    .btn {
+        padding: 10px 20px;
+        font-size: 17px;
+    }
+    .banner__desc {
+        font-size: 14px;
+    }
+    .price {
+        margin-top: 80px;
+    }
+    .price-container {
+        flex-wrap: wrap;
+    }
+    .price-item,
+    .contact__item {
+        width: calc(50% - 20px);
+        margin-bottom: 40px;
+    }
+    .label-item2::before {
+        right: 40%;
+    }
+    .ad__img {
+        margin-top: 150px;
+    }
+    .ad__heading {
+        font-size: 75px;
+    }
+    .ad__desc {
+        font-size: 17px;
+        margin-bottom: 80px;
+    }
+    .ad-container .btn {
+        margin-bottom: 70px;
+    }
+    .contact__item-feed--square,
+    .contact__item-client--square {
+        width: 105px;
+        height: 105px;
+        margin-bottom: 14px;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar-toggler {
+        position: fixed;
+        top: 40px;
+        right: 25px;
+        width: 30px;
+        height: 30px;
+        border-radius: 50px;
+        background-color: #2c2e3d;
+        color: white;
+    }
+    .navbar-dark .navbar-toggler {
+        color: rgba(255, 255, 255, .55);
+        border: none;
+    }
+    .navbar-toggler-icon {
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        position: absolute;
+        top: 7px;
+        left: 8px;
+    }
+    .nav-link .ti-search,
+    .nav-link .ti-shopping-cart {
+        margin-left: 2px;
+    }
+    .header-cart__notice {
+        top: 343px;
+        left: 80px;
+    }
+    .header__body {
+        margin: 65px 0 50px;
+    }
+    .header-slider__title {
+        margin: 50px 0;
+        font-size: 40px;
+        letter-spacing: 3px;
+    }
+    .prev,
+    .next {
+        display: none;
+    }
+    .header-buttons a:last-child {
+        margin: 20px 0 0 0;
+    }
+    .btn {
+        font-size: 20px;
+        width: 230px;
+        font-weight: 600;
+    }
+    .header-buttons {
+        margin-bottom: 100px;
+    }
+    .banner__heading {
+        margin-top: 95px;
+        font-size: 40px;
+        letter-spacing: 3px;
+    }
+    .container {
+        padding: 0 20px 0;
+    }
+    .price-container,
+    .footer-container {
+        flex-wrap: wrap;
+    }
+    .price-item,
+    .contact__item {
+        width: 100%;
+        margin-bottom: 100px;
+    }
+    .price {
+        margin: 120px auto 0;
+    }
+    .price__menu-item .btn {
+        padding: 12px 20px;
+        font-size: 17px;
+    }
+    .ad__img {
+        margin-top: 100px;
+    }
+    .ad__heading {
+        font-size: 50px;
+        letter-spacing: 3px;
+    }
+    .ad .btn {
+        margin: -35px 0 65px;
+    }
+    .contact__item {
+        margin-bottom: 9px;
+    }
+    .contact__item-feed--square,
+    .contact__item-client--square {
+        width: 100px;
+        height: 100px;
+    }
+    .footer__heading,
+    .footer__icon {
+        margin: 0 auto;
+    }
+    .footer__menu {
+        margin: 0;
+    }
+    .footer__item {
+        padding: 0 11px;
+    }
+    .footer__item-link {
+        font-size: 11px;
+    }
+}
